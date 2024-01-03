@@ -10,7 +10,7 @@
     align-items: center;
     height: 100vh;
     overflow: hidden;
-    width: 100vw;
+    width: 100%;
 
 }
 
@@ -18,9 +18,10 @@
 
     height: 100vh;
     position: absolute;
-    width: 35vw;
+    width: 35%;
     top: 0;
     left: 0;
+
 
 
 }
@@ -40,11 +41,12 @@
 
 
 .leftSlider {
-
-    width: 65vw;
     position: absolute;
     top: 0;
     left: 35%;
+    width: 65%;
+    height: 100vh;
+
 
 }
 
@@ -57,6 +59,24 @@
 
 }
 
-.actionBtn {
+/* .actionBtn {
     position: absolute;
+    left: 35%;
+} */
+
+button {
+
+    height: 40px;
+    width: 60px;
+}
+
+.downBtn {
+    position: absolute;
+    top: 55%;
+    left: 31.5%;
+}
+
+.upBtn {
+    position: absolute;
+    left: 35.5%;
 }
