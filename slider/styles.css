@@ -12,6 +12,7 @@
     overflow: hidden;
     width: 100%;
 
+
 }
 
 .rightSlider {
@@ -21,6 +22,7 @@
     width: 35%;
     top: 0;
     left: 0;
+    transition: all 2s ease-in-out;
 
 
 
@@ -46,7 +48,7 @@
     left: 35%;
     width: 65%;
     height: 100vh;
-
+    transition: all 2s ease-in-out;
 
 }
 
@@ -59,10 +61,7 @@
 
 }
 
-/* .actionBtn {
-    position: absolute;
-    left: 35%;
-} */
+
 
 button {
 
